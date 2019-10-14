@@ -10,7 +10,7 @@ export default class Layout extends Component {
 				<main>
 		            <div className="w-full max-w-6xl mx-auto p-4">
 		                <article>
-		                    <slot />
+		                    {this.props.children}
 		                </article>
 		            </div>
         		</main>

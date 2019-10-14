@@ -6,8 +6,8 @@ class About extends Component {
     render() {
         return (
             <Layout>
-                <h1 className="text-2xl font-semibold mb-3">Welcome</h1>
-                <p>Welcome to my first Inertia.js app!</p>
+                <h1 className="text-2xl font-semibold mb-3">About</h1>
+                <p>About to my first Inertia.js app!</p>
             </Layout>
         );
     }
