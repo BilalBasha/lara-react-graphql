@@ -13,10 +13,6 @@ use Inertia\Inertia;
 |
 */
 
-// Route::get('/', function () {
-//     return Inertia::render('Welcome');
-// });
-
 Route::get('/', 'AuthController@welcome');
 
 Route::get('/about', function () {
