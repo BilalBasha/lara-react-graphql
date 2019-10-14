@@ -15,10 +15,6 @@ use Inertia\Inertia;
 
 Route::get('/', 'AuthController@welcome');
 
-Route::get('/about', function () {
-    return Inertia::render('About');
-});
+Route::get('/about', 'AuthController@About');
 
-Route::get('/contact', function () {
-    return Inertia::render('Contact');
-});
+Route::get('/contact', 'AuthController@Contact');
