@@ -1,7 +1,4 @@
 <?php
-
-use Inertia\Inertia;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,6 +12,15 @@ use Inertia\Inertia;
 
 Route::get('/', 'AuthController@welcome');
 
-Route::get('/about', 'AuthController@About');
+// Route::get('/about', 'AuthController@about');
+// 
+// Route::get('/contact', 'AuthController@contact');
 
-Route::get('/contact', 'AuthController@Contact');
+// Route::get('/signup', 'AuthController@signup');
+
+// Route::get('/login', 'AuthController@login');
+
+
+Auth::routes();
+
+Route::get('/json-creator', 'JsonController@index');
