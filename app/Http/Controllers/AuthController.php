@@ -19,4 +19,8 @@ class AuthController extends Controller
 	public function contact() {
     	return Inertia::render('Contact');
 	}
+
+	public function signup() {
+    	return Inertia::render('Signup');
+	}
 }

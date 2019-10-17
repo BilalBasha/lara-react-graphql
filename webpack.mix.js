@@ -14,3 +14,5 @@ mix.react('resources/js/app.js', 'public/js')
    .babelConfig({
        plugins: ['@babel/plugin-syntax-dynamic-import']
    });
+
+mix.copyDirectory('node_modules/ace-builds/src-noconflict/', 'public/ace/');

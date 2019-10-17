@@ -9,9 +9,9 @@ export default class Layout extends Component {
         		<Navbar />
 				<main>
 		            <div className="w-full max-w-6xl mx-auto p-4">
-		                <article>
+		                <div>
 		                    {this.props.children}
-		                </article>
+		                </div>
 		            </div>
         		</main>
     		</div>
